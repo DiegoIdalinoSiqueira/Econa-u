@@ -665,6 +665,7 @@ main {
   padding: 3px 15px;
   border: 1px solid #8492a6;
   margin-right: 16px;
+  max-width: 45px;
 }
 
 #container article h4 {
