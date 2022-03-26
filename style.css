@@ -918,3 +918,7 @@ section:nth-child(5) {
 .text-center{
     text-align: center;
 }
+
+.notice h2, span{
+    cursor: pointer;
+}
