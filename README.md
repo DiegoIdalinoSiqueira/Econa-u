@@ -1,6 +1,8 @@
 # Site Econaçu
 Este projeto faz parte do projeto da atividade final da disciplina de Design Web. O econaçu é o site do Evento Nacional de Economia do Vale do Açu.
 
+Caso queira acessar o site <a href="https://vocal-melomakarona-df488b.netlify.app">clique aqui.</a>
+
 ## Tecnologias
 O site será desenvolvido nas seguintes tecnologias: HTML e CSS
 
