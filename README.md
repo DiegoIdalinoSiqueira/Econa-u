@@ -4,7 +4,7 @@ Este projeto faz parte do projeto da atividade final da disciplina de Design Web
 Caso queira acessar o site <a href="https://vocal-melomakarona-df488b.netlify.app">clique aqui.</a>
 
 ## Tecnologias
-O site será desenvolvido nas seguintes tecnologias: HTML e CSS
+O site foi desenvolvido nas seguintes tecnologias: HTML e CSS
 
 ## Pessoas
 Para este projeto foram destinados alguns discentes, são eles:
@@ -18,3 +18,6 @@ Para este projeto foram destinados alguns discentes, são eles:
 ### Divisão de tarefas e acompanhamento
 1. Bianca Bezerra
 2. Melissa Bianca
+
+### Professor Orientador
+1. Cesimar Xavier
