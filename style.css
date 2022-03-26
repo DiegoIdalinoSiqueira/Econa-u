@@ -1,0 +1,919 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400;500;600;700;800;900&family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/*HEADER*/
+header {
+  width: 100%;
+  height: auto;
+}
+
+#header_one {
+  background: #f9fafc;
+  height: 88px;
+  padding: 6px 134px 0px 112px;
+}
+
+#header_one .nav_bar {
+  float: right;
+  padding-top: 25px;
+}
+
+#header_one li {
+  list-style-type: none;
+  display: inline;
+  cursor: pointer;
+}
+
+#header_one li,
+#header_one a {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+#header_one li {
+  color: #8492a6;
+  text-decoration: none;
+  padding-right: 41px;
+}
+
+#header_one a{
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: #1f2d3d;
+  width: 139px;
+  background: #fab900;
+  border: none;
+  cursor: pointer;
+  float: right;
+}
+
+#header_two {
+  height: 54px;
+  background: #fee1ae;
+}
+
+#header_two p {
+  font-family: "Raleway";
+  font-style: normal;
+  font-size: 14px;
+  color: #273444;
+  text-align: center;
+  font-weight: 500;
+  padding-top: 16px;
+}
+
+/*fim header*/
+main {
+  background: url(/assets/img/background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ff-rubik {
+  font-family: "Rubik", sans-serif;
+}
+
+.d-flex {
+  display: inline-flex;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.fw-extra-bold {
+  font-weight: 800;
+}
+
+.bg-dark{
+  background: #273444;
+}
+
+.bg-dark-2{
+    background: #1f2d3d;
+    height: 33px;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.text-dark {
+  color: #273444;
+}
+
+.text-prata {
+  color: #3c4858;
+}
+
+.text-neve {
+  color: #f9fafc !important;
+}
+
+.text-fumaça {
+  color: #e0e6ed;
+}
+
+.text-yellow {
+  color: #fab900;
+}
+
+.text-yellow-secondary {
+  color: #fee1ae;
+}
+
+.text-red {
+  color: #eb5151;
+}
+
+.text-gray {
+  color: #8492a6;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-28 {
+  font-size: 28px;
+}
+
+.fs-48 {
+  font-size: 48px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.mb-awe-27 {
+  margin-bottom: 27px;
+}
+
+.mb-awe-100 {
+  margin-bottom: 100px;
+}
+
+.mb-awe-120 {
+    margin-bottom: 120px;
+  }
+
+.ps-awe-40 {
+  padding-left: 40px;
+}
+
+.pt-awe-15{
+ padding-top: 15px;
+}
+
+.pt-awe-20 {
+  padding-top: 20px;
+}
+
+.pt-awe-80 {
+  padding-top: 80px;
+}
+
+.pt-awe-90 {
+  padding-top: 90px;
+}
+
+.mt-awe-5 {
+  margin-top: 5px;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.pb-awe-13 {
+  margin-bottom: 13px;
+}
+
+.pb-awe-15{
+    padding-bottom: 15px;
+   }
+
+.pb-awe-22 {
+  margin-bottom: 22px;
+}
+
+.pb-awe-48 {
+  padding-bottom: 48px;
+}
+
+.pb-awe-62 {
+  padding-bottom: 62px;
+}
+
+.pb-awe-75 {
+  padding-bottom: 75px;
+}
+
+.pb-awe-136 {
+  padding-bottom: 136px;
+}
+
+.ps-awe-8 {
+  padding-left: 8px;
+}
+
+.pe-awe-40 {
+  padding-right: 40px;
+}
+
+.pe-awe-47 {
+  padding-right: 47px;
+}
+
+.pe-awe-100 {
+  padding-right: 100px;
+}
+
+.pe-awe-129 {
+  padding-right: 129px;
+}
+
+.container {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.botao a {
+  position: absolute;
+  background: #fab900;
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-decoration: none;
+  z-index: 10;
+}
+
+.shadow {
+  position: relative;
+  margin-right: 10px;
+  width: 218px;
+  height: 43px;
+  left: 141px;
+  border: 0.5px solid #ffffff;
+}
+
+.quadro {
+  background: linear-gradient(
+    180.1deg,
+    #111111 27.81%,
+    rgba(17, 17, 17, 0) 92.2%
+  );
+  opacity: 0.8;
+}
+
+.notice {
+  color: #e0e6ed;
+}
+
+.linha {
+  height: 1px;
+  background: #8492a6;
+}
+
+.dates {
+  padding-left: 10%;
+  padding-right: 15%;
+}
+
+.dates ul {
+  list-style: none;
+}
+
+.save {
+  float: right;
+  cursor: pointer;
+  margin-bottom: 61px;
+}
+
+.realização-apoio {
+  max-width: 1200px;
+  height: 262px;
+  margin-left: 132px;
+  margin-top: 56px;
+}
+
+.realização-apoio-textos {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  color: #1f2d3d;
+}
+
+.realização-apoio-textos h3 {
+  display: inline;
+  margin-right: 70px;
+}
+
+.realização-apoio-imagens {
+  display: -webkit-inline-box;
+  -webkit-box-align: center;
+}
+
+#img-UERN {
+  margin-top: 13px;
+  margin-left: 39px;
+  margin-right: 134px;
+}
+
+#img-UFRN,
+#img-UFERSA,
+#img-IFRN {
+  margin-top: 29px;
+  margin-right: 33px;
+}
+
+.convidados {
+  max-width: 1200px;
+  height: 733px;
+  margin: auto;
+}
+
+.convidados-textos {
+  height: 162px;
+}
+
+#convidados-textos-grande {
+  position: absolute;
+  width: 1150.64px;
+  height: 162px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 132px;
+  line-height: 120%;
+  opacity: 0.05;
+  color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #eb5151;
+}
+
+.convidados-textos-titulo {
+  margin-top: 57px;
+  position: absolute;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #273444;
+  margin-left: 508px;
+}
+
+#convidados-textos-linhazinha {
+  position: absolute;
+  width: 116px;
+  height: 4px;
+  background: #eb5151;
+  margin-top: 105px;
+  margin-left: 539px;
+}
+
+#svg81,
+#svg80,
+#svg79 {
+  position: absolute;
+}
+
+#svg81 {
+  margin-left: 116px;
+}
+
+#svg80 {
+  margin-left: 36px;
+}
+
+.convidados-imagens {
+  display: -webkit-inline-box;
+  margin-top: 12px;
+}
+
+#convidado-um {
+  width: 325px;
+  height: 445px;
+  background-image: linear-gradient(
+      180deg,
+      rgba(34, 34, 34, 0) 75%,
+      #222222 90%
+    ),
+    url("assets/img/image31.png");
+  margin-right: 15px;
+  margin-left: 98px;
+}
+
+#convidado-dois {
+  width: 325px;
+  height: 445px;
+  background-image: linear-gradient(
+      180deg,
+      rgba(34, 34, 34, 0) 75%,
+      #222222 90%
+    ),
+    url("assets/img/image29.png");
+  margin-right: 15px;
+}
+
+#convidado-tres {
+  width: 325px;
+  height: 445px;
+  background-image: linear-gradient(
+      180deg,
+      rgba(34, 34, 34, 0) 75%,
+      #222222 90%
+    ),
+    url("assets/img/image30.png");
+}
+
+.convidado-texto {
+  padding-top: 374px;
+  padding-left: 24px;
+}
+
+.convidado-nome {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 140%;
+  text-transform: uppercase;
+  color: #e62121;
+}
+
+.convidado-descricao {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19.6px;
+  color: #d8d6d3;
+}
+/*seção 3*/
+#s-three {
+  width: 100%;
+  height: 566px;
+  background-color: #f9f9f9;
+}
+
+#s-three p,
+#s-three h2,
+#s-three h3,
+#s-three button {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+}
+
+.s-text h2 {
+  width: 456px;
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 120%;
+  color: #273444;
+  padding-bottom: 27px;
+}
+
+.s-text p {
+  width: 440px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  color: #273444;
+}
+
+.s-slide-img h3 {
+  color: #273444;
+}
+
+.s-text {
+  float: right;
+  padding-right: 221px;
+  padding-top: 69px;
+}
+
+.s-text button {
+  width: 147px;
+  height: 40px;
+  background: #273444;
+  border: 0.5px solid #3c4858;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 14px;
+  color: #f9fafc;
+}
+
+.btn {
+  padding-top: 27px;
+}
+
+.s-slide-img {
+  float: left;
+  padding: 44px 0px 0px 98px;
+}
+
+.s-slide button {
+  width: 30px;
+  height: 30px;
+  background: #273444;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.s-slide-text {
+  float: left;
+  padding-right: 95px;
+}
+
+.s-slide-arrow {
+  margin-top: 4px;
+  padding-left: 75px;
+  width: 306px;
+}
+
+.arrow_p {
+  width: 306px;
+}
+/*fim seção 3*/
+
+#ultimas-do-econacu {
+  background: linear-gradient(90deg, #131a22 7.11%, #2f3e51 74.04%);
+  box-shadow: 0px 20px 20px #8492a6;
+  font-family: "Raleway", sans-serif;
+}
+
+#pontos-esquerda {
+  background-image: url("assets/img/pontos.svg");
+  background-repeat: no-repeat;
+  background-position: -20px 22px;
+}
+
+#pontos-direita {
+  background-image: url("assets/img/pontos.svg");
+  background-repeat: no-repeat;
+  background-position: right 361px;
+}
+
+#container div {
+  max-width: 49.6%;
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+#container div:first-child {
+  padding-left: 96px;
+  padding-right: 54px;
+}
+
+#container div:last-child {
+  padding-right: 96px;
+}
+/* ESTILIZANDO O LADO ESQUERDO */
+/* PRIMEIRO TITULO */
+
+#pontos-direita h2 {
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 33.6px;
+  padding-top: 47px;
+  margin-left: 96px;
+  margin-bottom: 50px;
+  color: #3c4858;
+}
+
+/* SUBTITULO H3 */
+#container div h3 {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21.6px;
+  color: #e5e9f2;
+  margin-top: 0;
+}
+
+/* SUBTITULO H5 */
+#container div h5 {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14.4px;
+  color: #8492a6;
+}
+
+/* PARAGRAFO DA ESQUERDA */
+#container p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22.4px;
+  color: #c0ccda;
+  margin-bottom: 56px;
+}
+
+/* BOTÃO DO LADO ESQUERDO */
+#ler-mais {
+  width: 159px;
+  height: 38px;
+  padding: 8px 48px;
+  border: 1px solid #fab900;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22.4px;
+  color: #fab900;
+  text-decoration: none;
+  text-align: center;
+}
+
+#ler-mais:hover {
+  background-color: #fab900;
+  color: black;
+  transition: 500ms;
+}
+
+/* FIM DA ESTILIZAÇÃO DO LADO ESQUERDO */
+/* INICIO DA ESTILIZAÇÃO DO LADO DIREITO */
+
+.clipping {
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 16px;
+  color: #c0ccda;
+  padding: 3px 15px;
+  border: 1px solid #8492a6;
+  margin-right: 16px;
+}
+
+#container article h4 {
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 19.2px;
+  color: #c0ccda;
+  margin-bottom: 8px;
+}
+
+.noticia-tribuna {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22.4px;
+  color: #c0ccda;
+  text-decoration: none;
+}
+
+#container div article {
+  margin-bottom: 49px;
+}
+
+#container div article:last-child {
+  margin-bottom: 31px;
+}
+
+#ver-tudo {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  color: #ffc82c;
+  text-decoration: none;
+  display: block;
+  width: 100px;
+  margin-left: auto;
+  margin-top: 53px;
+}
+
+#ver-tudo img {
+  margin-right: 11px;
+  vertical-align: middle;
+}
+
+#container div h3::after {
+  content: "";
+  display: block;
+  margin-top: 11px;
+  width: 60px;
+  height: 4px;
+  background-color: #ffc82c;
+}
+
+#container div:last-child article:first-child h4 {
+  margin-top: 0;
+}
+
+/* ESTILIZANDO SESSÃO */
+#sessao-edicoes-anteriores {
+  height: 265px;
+  position: relative;
+  background: linear-gradient(
+    268.7deg,
+    rgba(64, 222, 99, 0.17) 4.8%,
+    rgba(229, 233, 242, 0) 66.94%
+  );
+}
+
+/* SETAS DIRECIONADAS PARA A ESQUERDA */
+
+#edicoes-anteriores {
+  background-image: url("assets/img/seta-esquerda-1.svg");
+  background-repeat: no-repeat;
+  background-position: right 41px;
+}
+
+#seta-esquerda2 {
+  width: 100%;
+  height: 100%;
+  background-image: url("assets/img/seta-esquerda-2.svg");
+  background-repeat: no-repeat;
+  background-position: right 27px;
+}
+
+#seta-esquerda3 {
+  width: 100%;
+  height: 100%;
+  background-image: url("assets/img/seta-esquerda-3.svg");
+  background-repeat: no-repeat;
+  background-position: 95% 13px;
+}
+
+/* SETAS DIRECIONADAS PARA A DIREITA */
+#background-setas-direita {
+  background-image: url("assets/img/seta-direita-1.svg");
+  background-repeat: no-repeat;
+  height: 151.99px;
+  width: 100%;
+  position: absolute;
+  bottom: -90px;
+}
+
+#seta-direita2 {
+  width: 100%;
+  height: 100%;
+  background-image: url("assets/img/seta-direita-2.svg");
+  background-repeat: no-repeat;
+  background-position: left 64px;
+}
+
+#seta-direita3 {
+  width: 100%;
+  height: 100%;
+  background-image: url("assets/img/seta-direita-3.svg");
+  background-repeat: no-repeat;
+  background-position: 28px 28px;
+}
+
+/* TITULO H2 */
+#seta-esquerda3 h2 {
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 33.6px;
+  color: #273444;
+  padding-top: 74px;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+#seta-esquerda3 h2::before {
+  content: "";
+  display: inline-block;
+  width: 90px;
+  height: 2px;
+  background-color: #23c947;
+  vertical-align: middle;
+  margin-right: 12px;
+}
+
+/* PARAGRAFO */
+#seta-esquerda3 p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22.4px;
+  color: #000;
+  margin-left: 102px;
+  margin-top: 0;
+  margin-bottom: 51px;
+}
+
+#pdf {
+  display: inline-block;
+  font-weight: 700;
+}
+
+/* LINKS DE DONWLOAD */
+#downloads {
+  margin-left: 174px;
+}
+
+#downloads a span{
+    cursor: pointer !important;
+}
+
+#sessao-edicoes-anteriores a {
+  color: #f9fafc;
+  display: inline-block;
+  width: 102px;
+  height: 99px;
+  vertical-align: middle;
+  border-radius: 5.66px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 28px;
+  box-sizing: border-box;
+  padding-top: 14px;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.cinza {
+  background-color: #273444;
+}
+
+.download-verde {
+  background-color: #23c947;
+}
+
+#aguardando-publicação-cor {
+  background-color: #d3dce6;
+  color: #3c4858 !important;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 24px;
+  line-height: 100%;
+  text-align: center;
+}
+
+#aguardando-publicação {
+  font-size: 12px;
+  text-decoration: none;
+  font-family: "Raleway";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 120%;
+  color: #3c4858;
+}
+
+.baixar {
+  font-size: 14px;
+  line-height: 19.6px;
+  padding-top: 23px;
+  text-decoration: underline;
+}
+
+#aguardando-publicacao {
+  font-style: italic;
+  padding-bottom: 14px;
+  text-decoration: none;
+  line-height: 14.4px;
+}
+
+span {
+  display: block;
+}
+
+section:nth-child(7) {
+  background: url("/assets/img/seta3.svg"), url("/assets/img/seta2.svg"), url("/assets/img/seta1.svg");
+  background-repeat: no-repeat;
+  background-position-x: 12%, 3%, 0px;
+  background-position-y: 150px, 175px, 250px;
+}
+
+section:nth-child(5) {
+  background-image: url("/assets/img/quadrado.svg");
+  background-repeat: no-repeat;
+  background-position-x: 5%;
+  background-position-y: 10px;
+  background-color: #f9f9f9;
+}
+
+.hover-button-yellow:hover{
+  background-color: #273444;
+  color: #fab900;
+  transition: 500ms;
+}
+
+.text-center{
+    text-align: center;
+}
