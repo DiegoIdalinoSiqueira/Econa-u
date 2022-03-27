@@ -10,7 +10,7 @@ O site foi desenvolvido nas seguintes tecnologias: HTML e CSS
 Para este projeto foram destinados alguns discentes, são eles:
  
 ### Montagem
-1. Bianca Bezerra - Responsável pela primera e quarta seção
+1. Bianca Bezerra - Responsável pela primeira e quarta seção
 2. Diego Idalino - Responsável pela quinta e sétima seção
 3. Melissa Bianca - Responsável pela segunda e sexta seção
 4. Maria Leticia Bandeira - Responsável pelo navbar e terceira seção
