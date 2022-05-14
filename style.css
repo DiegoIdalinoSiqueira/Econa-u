@@ -72,7 +72,7 @@ header {
 
 /*fim header*/
 main {
-  background: url(/assets/img/background.svg);
+  background: url("assets/img/background.svg");
   background-repeat: no-repeat;
   background-size: cover;
 }
